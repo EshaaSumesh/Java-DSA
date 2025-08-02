@@ -23,6 +23,18 @@ class Main
       fruits.remove("Orange");
       System.out.println(fruits);
 
+     List<Integer> diary=new ArrayList<>();
+        
+        //create
+        diary.add(123);
+        diary.add(543);
+        System.out.println(diary);
+        //update
+        diary.set(1,355);
+        
+        diary.remove(0); //integer,remove using index
+        System.out.println(diary);   
+
     }
 }    
     
