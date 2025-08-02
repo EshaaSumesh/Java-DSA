@@ -18,6 +18,18 @@ class Main
        fruits.removeFirst();//remove first element
        System.out.println(fruits); 
        
+      ListIterator <String> test=fruits.listIterator();
+      
+      while(test.hasNext()) //head to tail
+      {
+          System.out.println("Head to tail:" +test.next());
+      }
+      
+       while(test.hasPrevious()) //tail to head
+      {
+          System.out.println("Tail to Head:"+test.previous());
+      }
+       
    }
    
 }
